@@ -21,7 +21,6 @@ body {
 
 * {
     font-family: 'Poppins';
-    text-align: center;
 }
 
 @media only screen and (min-width: 769px) { /* for screens larger than mobile*/
@@ -36,9 +35,16 @@ body {
         padding-right: 20%;
     }
     .about-text {
-        text-align: center;
         padding-left: 20%;
         padding-right: 20%;
+    }
+    .artist-text {
+        text-align: left;
+        padding-left: 20%;
+        padding-right: 50%;
+    }
+    .artist-textmb {
+        display: none;
     }
 }
 
@@ -58,8 +64,15 @@ body {
     }
     .about-text {
         font-size: 0.75rem;
-        text-align: center;
         padding-left: 20%;
         padding-right: 20%;
+    }
+    .artist-textmb {
+        text-align: left;
+        padding-left: 20%;
+        padding-right: 50%;
+    }
+    .artist-text {
+        display: none;
     }
 }
